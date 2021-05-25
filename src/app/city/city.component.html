@@ -1,0 +1,25 @@
+<div>
+    <h1 style="margin-left: 300px;">{{city}} Weather Data For Coming 5 days at 9 </h1>
+ <table  class="center " >
+        <thead>
+            <tr>
+               
+                <th>Temperature</th>
+                <th>Sealevel</th>
+               
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let item of weatherData">
+              
+                <td>{{ item['main']['temp'] }}</td>
+                <td>{{ item['main']['sea_level'] }}</td>
+               
+            </tr>
+           
+        </tbody>
+    </table>
+    <br>
+    <button style="text-align: center;margin-left: 600px;"><a routerLink="/home">Back</a></button>
+</div>
+

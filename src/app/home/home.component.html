@@ -1,0 +1,41 @@
+
+
+
+<div class="content">
+    <div fxLayout="row wrap" fxLayoutGap="16px grid">
+      <div  fxFlex="25%" fxFlex.xs="100%" fxFlex.sm="33%" *ngFor="let city of citiesApiWeatherData">
+        <mat-card  (click)="getCityWeatherData(city)" *ngIf="route.children.length === 0"  class="mat-elevation-z5" >
+            <mat-card-header>
+              <mat-card-title >{{city['name']}}'s weather</mat-card-title>
+              <div class="temp">
+                <span>{{city['main']['temp']}} C</span>
+              
+              </div>
+            </mat-card-header>
+            <mat-card-content>
+                <div class="flex-row" >
+                    
+                    <div class="outlook">
+                      <img src=" http://openweathermap.org/img/wn/01d@2x.png" />
+                      <span>Sunrise</span><br>
+                      <span>{{city['sys']['sunrise']}}</span>
+                    
+                    </div>
+             <hr>
+                    <div class="outlook">
+                    <img src=" http://openweathermap.org/img/wn/01n@2x.png" />
+                    <span>Sunset</span><br>
+                    <span>{{city['sys']['sunset']}}</span>
+                    </div>
+              </div>
+            </mat-card-content>
+            <mat-card-actions>
+              <button  style="text-align: center;" mat-button>Check Weather</button>
+            </mat-card-actions>
+          </mat-card>
+          </div>
+          </div>
+          </div>
+          <div>
+<router-outlet></router-outlet>
+          </div>

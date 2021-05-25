@@ -1,0 +1,45 @@
+mat-card::ng-deep.mat-card-header-text {
+    width: 70%;
+  }
+
+  .flex-row {
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+  
+ 
+  }
+  .flex-row>div
+  {
+
+        flex: 50%;
+        padding: 10px;
+      
+  }
+   div {
+    flex: 50%;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+ .outlook {
+    color: black;
+    background: rgba(0,0,0,0.1);
+    width: 20px;
+  }
+
+ .temp {
+    background: lightblue;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+ }
+ .content {
+    padding: 16px;
+}
+
+.content > mat-card {
+    width: 200px;
+}

@@ -1,0 +1,55 @@
+{
+    "List": [
+        {
+            "id": 4865871,
+            "name": "Madrid",
+            "state": "IA",
+            "country": "US",
+            "coord": {
+                "lon": -93.82328,
+                "lat": 41.876652
+            }
+        },
+        {
+            "id": 2950158,
+            "name": "Berlin",
+            "state": "",
+            "country": "DE",
+            "coord": {
+                "lon": 10.45,
+                "lat": 54.033329
+            }
+        },
+        {
+            "id": 683506,
+            "name": "Bucharest",
+            "state": "",
+            "country": "RO",
+            "coord": {
+                "lon": 26.10626,
+                "lat": 44.432251
+            }
+        },
+        {
+            "id": 2761369,
+            "name": "Vienna",
+            "state": "",
+            "country": "AT",
+            "coord": {
+                "lon": 16.37208,
+                "lat": 48.208488
+            }
+        },
+        {
+            "id": 4113607,
+            "name": "Hamburg",
+            "state": "AR",
+            "country": "US",
+            "coord": {
+                "lon": -91.79763,
+                "lat": 33.22818
+            }
+        }
+ 
+]
+}
